@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="pressedBackgroudColor" format="color|reference" />
+
+    <declare-styleable name="StateButton">
+        <attr name="pressedBackgroudColor" />
+        <attr name="normalTextColor" format="color|reference" />
+        <attr name="pressedTextColor" format="color|reference" />
+        <attr name="normalStrokSize" format="dimension" />
+        <attr name="normalStrokColor" format="color|reference" />
+        <attr name="pressedStrokSize" format="dimension" />
+        <attr name="pressedStrokColor" format="color|reference" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="isRound" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="StateLayout">
+        <attr name="loading_view" format="reference" />
+        <attr name="empty_view" format="reference" />
+        <attr name="error_view" format="reference" />
+        <attr name="no_network_view" format="reference" />
+        <attr name="show_duration" format="integer" />
+
+        <attr name="loading_text" format="string" />
+        <attr name="empty_text" format="string" />
+        <attr name="error_text" format="string" />
+
+        <attr name="use_state" format="boolean" />
+    </declare-styleable>
+</resources>
